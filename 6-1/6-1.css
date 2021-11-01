@@ -1,0 +1,17 @@
+.kutu {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+
+
+
+}
+.kapsayıcı2 {
+    position: relative;
+    background-color: yellow;
+    height: 80px;
+    padding: 30px;
+}

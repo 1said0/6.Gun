@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  // FLEX
+  
+  .timeline {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(187, 42, 42);
+    padding: 20px;
+  }
+  
+  .card {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(19, 33, 163, 0.137);
+    box-shadow: 0 2px 15px rgba(black, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+  }
+    .svg {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: blue;
+      flex-shrink: 0;
+    }
+  
+    .content {
+      flex-grow: 1;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .arrow {
+      width: 5px;
+      height: 30px;
+      background-color: #ccc;
+    }
+  
