@@ -19,12 +19,12 @@
   .card {
     margin: 10px;
     position: relative;
-    width: calc(50% - 20px);
+    width: calc(50% - 20px) ;
     height: 200px;
     border-radius: 10px;
     background-color: #474C5A;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #85E6FA;
